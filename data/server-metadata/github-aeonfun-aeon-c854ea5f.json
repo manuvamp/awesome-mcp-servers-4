@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-aeonfun-aeon-c854ea5f",
+  "source": {
+    "issue": 3356,
+    "projectUrl": "https://github.com/aeonfun/aeon"
+  },
+  "links": {
+    "endpoint": "https://www.aeon.fun/connect/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "oauth",
+    "notes": [
+      "oauth"
+    ]
+  },
+  "clients": [
+    "Claude",
+    "ChatGPT",
+    "Cursor",
+    "VS Code",
+    "other clients that support remote MCP with OAuth"
+  ],
+  "license": "MIT"
+}
