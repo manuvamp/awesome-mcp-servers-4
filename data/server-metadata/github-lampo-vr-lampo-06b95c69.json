@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-lampo-vr-lampo-06b95c69",
+  "source": {
+    "issue": 3351,
+    "projectUrl": "https://github.com/lampo-vr/lampo"
+  },
+  "links": {
+    "docs": "https://lampo.video/docs/mcp/",
+    "endpoint": "https://app.lampo.video/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "oauth",
+    "notes": [
+      "OAuth sign-in; authenticated Bearer API-token connections are also supported."
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "notes": [
+      "Metadata updated from issue #3351. Source: - Hosted Cloud guide: https://lampo.video/docs/cloud/ - Canonical MCP guide: https://lampo.video/docs/mcp/ - Source MCP guide, especially “Two ways to connect”, “Any other client” and “Its own server (stdio)”:..."
+    ]
+  }
+}
